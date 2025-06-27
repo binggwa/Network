@@ -110,7 +110,7 @@
 - B가 FIN 세그먼트를 수신한 후에도 B에서 A로의 흐름방향은 여전히 열려 있음
 - 호스트 A의 TCP는 정상 종료를 위한 시간 대기 상태로 전환됨
 ***
-# 3. TCP Flow Control and Date Transfer
+# 3. TCP Flow Control and Data Transfer
 ***
 ### TCP Flow Control
 - 신뢰할 수 있는 데이터 전송을 제공하기 위해 3방향 핸드쉐이크 절차를 통해 TCP 연결이 설정된 후 TCP는 선택적 반복 ARQ 프로토콜을 사용하며, Positive ACK 기능은 슬라이딩 윈도우로 구현됨
